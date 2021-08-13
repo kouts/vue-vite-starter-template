@@ -1,8 +1,18 @@
+import { minifyHtml, injectHtml } from 'vite-plugin-html'
 const path = require('path')
 const { createVuePlugin } = require('vite-plugin-vue2')
 
 module.exports = {
-  plugins: [createVuePlugin()],
+  plugins: [
+    createVuePlugin(),
+    minifyHtml(),
+    injectHtml({
+      injectData: {
+        title: 'ProjectName',
+        description: 'A single page application created using Vue.js'
+      }
+    })
+  ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, '/src'),

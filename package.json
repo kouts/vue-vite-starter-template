@@ -49,6 +49,7 @@
     "sass": "^1.37.5",
     "sass-loader": "^10.2.0",
     "vite": "^2.4.4",
+    "vite-plugin-html": "^2.0.7",
     "vue-template-compiler": "^2.6.14"
   }
 }
