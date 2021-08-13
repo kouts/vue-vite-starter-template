@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.0...v1.0.1) (2021-08-13)
+
+
+### Bug Fixes
+
+* added IE support ([dc51509](https://github.com/kouts/vue-vite-starter-template/commit/dc51509ba2822333efd56c2b8ba95d24887abb18))
+
 # 1.0.0 (2021-08-13)
 
 
