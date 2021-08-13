@@ -1,3 +1,16 @@
+# 1.0.0 (2021-08-13)
+
+
+### Bug Fixes
+
+* added favicon ([f8edef6](https://github.com/kouts/vue-vite-starter-template/commit/f8edef646ee578539323c59f8656aa53279d8e49))
+* fixed title and meta description from config ([62153d2](https://github.com/kouts/vue-vite-starter-template/commit/62153d2b79a280950f1bb60e23b8e8299ec15570))
+
+
+### Features
+
+* initial commit ([76e6010](https://github.com/kouts/vue-vite-starter-template/commit/76e6010e8cd529141094d51957c8c8f2b5e8903c))
+
 # [1.1.0](https://github.com/kouts/vue-starter-template/compare/v1.0.0...v1.1.0) (2021-08-11)
 
 
