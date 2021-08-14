@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.2...v1.0.3) (2021-08-14)
+
+
+### Bug Fixes
+
+* fixed sass division deprecation warning ([3f00a99](https://github.com/kouts/vue-vite-starter-template/commit/3f00a997b149bcfe4aa80ce78266396ebc53e996))
+
 ## [1.0.2](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.1...v1.0.2) (2021-08-14)
 
 
