@@ -1,5 +1,5 @@
 # vue-vite-starter-template
-A single page app starter template created to easily bootstrap Vue.js 2 apps.
+A single page app [Vite](https://vitejs.dev) starter template, created to easily bootstrap Vue.js 2 apps.
 
 **Features**
 - Vuex 3 for state management
