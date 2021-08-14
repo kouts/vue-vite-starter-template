@@ -7,7 +7,8 @@
     "serve": "vite preview",
     "build": "vite build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
+    "lint": "eslint . --ext .js,.vue",
+    "lint-fix": "eslint . --fix --ext .js,.vue",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -27,7 +28,6 @@
     "@fullhuman/vue-cli-plugin-purgecss": "^4.0.3",
     "@vitejs/plugin-legacy": "^1.5.1",
     "@vue/cli-plugin-babel": "^4.5.13",
-    "@vue/cli-plugin-eslint": "^4.5.13",
     "@vue/cli-plugin-unit-jest": "^4.5.13",
     "@vue/cli-service": "^4.5.13",
     "@vue/test-utils": "^1.2.2",
