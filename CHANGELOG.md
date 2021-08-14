@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.3...v1.0.4) (2021-08-14)
+
+
+### Bug Fixes
+
+* added vite links ([6beabf0](https://github.com/kouts/vue-vite-starter-template/commit/6beabf0ac896f677a0b5057802862fec32870b17))
+
 ## [1.0.3](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.2...v1.0.3) (2021-08-14)
 
 
