@@ -3,7 +3,7 @@
     <div class="text-center">
       <img alt="Vue logo" src="../assets/logo.png" class="text-center" />
     </div>
-    <hello-world msg="Welcome to Vue.js starter template" />
+    <hello-world msg="Welcome to Vue.js Vite starter template" />
   </div>
 </template>
 
