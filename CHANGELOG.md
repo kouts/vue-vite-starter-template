@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.1...v1.0.2) (2021-08-14)
+
+
+### Bug Fixes
+
+* fixed postcss removing used styles ([9e10dd5](https://github.com/kouts/vue-vite-starter-template/commit/9e10dd532bdc991853f7ffdf1918698e370c4037))
+
 ## [1.0.1](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.0...v1.0.1) (2021-08-13)
 
 
