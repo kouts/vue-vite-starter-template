@@ -43,7 +43,7 @@
     "eslint-plugin-vue": "^7.16.0",
     "husky": "^7.0.1",
     "prettier": "2.3.2",
-    "sass": "^1.37.5",
+    "sass": "~1.32.13",
     "vite": "^2.4.4",
     "vite-plugin-html": "^2.0.7",
     "vite-plugin-vue2": "^1.8.0",
