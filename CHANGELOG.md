@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.4...v1.0.5) (2021-08-21)
+
+
+### Bug Fixes
+
+* removed webpackChunkName comments ([449ce93](https://github.com/kouts/vue-vite-starter-template/commit/449ce9313dfc8fdbb7e7bb67ffae4fb839ea41b3))
+
 ## [1.0.4](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.3...v1.0.4) (2021-08-14)
 
 
