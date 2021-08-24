@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.6...v1.0.7) (2021-08-24)
+
+
+### Bug Fixes
+
+* fixed import paths ([9f683c7](https://github.com/kouts/vue-vite-starter-template/commit/9f683c7aa33102774c89186304acd914ad42a7f6))
+
 ## [1.0.6](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.5...v1.0.6) (2021-08-21)
 
 
