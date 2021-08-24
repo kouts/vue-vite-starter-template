@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.5...v1.0.6) (2021-08-21)
+
+
+### Bug Fixes
+
+* enable postcss in development ([b9a8e61](https://github.com/kouts/vue-vite-starter-template/commit/b9a8e612d05a6053e2455562e0a0050d59f2e9b2))
+
 ## [1.0.5](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.4...v1.0.5) (2021-08-21)
 
 
