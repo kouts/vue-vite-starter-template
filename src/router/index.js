@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Default from '@/layouts/default/Default.vue'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home.vue'
 
 Vue.component('LayoutDefault', Default)
 
@@ -20,7 +20,7 @@ const routes = [
     path: '/about',
     name: 'About',
     // route level code-splitting
-    component: () => import('../views/About.vue'),
+    component: () => import('@/views/About.vue'),
     meta: {
       layout: 'default'
     }
