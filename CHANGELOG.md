@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.7...v1.0.8) (2021-08-25)
+
+
+### Bug Fixes
+
+* enable purgecss only in production ([07d4398](https://github.com/kouts/vue-vite-starter-template/commit/07d4398a039a77246aba1cd92a03a24b5fb22169))
+
 ## [1.0.7](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.6...v1.0.7) (2021-08-24)
 
 
