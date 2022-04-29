@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.8...v1.1.0) (2022-04-29)
+
+
+### Features
+
+* updated eslint config and npm packages ([7f824b2](https://github.com/kouts/vue-vite-starter-template/commit/7f824b21d0fb14f1e28d579c5148eeacfe284af3))
+
 ## [1.0.8](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.7...v1.0.8) (2021-08-25)
 
 
