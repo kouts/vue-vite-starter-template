@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.0...v1.1.1) (2022-04-29)
+
+
+### Bug Fixes
+
+* updated eslint config ([86a7094](https://github.com/kouts/vue-vite-starter-template/commit/86a709403ebbba130791796ae54b07ae2e51d29f))
+
 # [1.1.0](https://github.com/kouts/vue-vite-starter-template/compare/v1.0.8...v1.1.0) (2022-04-29)
 
 
