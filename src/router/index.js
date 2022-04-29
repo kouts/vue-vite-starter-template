@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
 import Default from '@/layouts/default/Default.vue'
 import Home from '@/views/Home.vue'
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
 Vue.component('LayoutDefault', Default)
 
