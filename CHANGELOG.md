@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.1...v1.1.2) (2022-05-08)
+
+
+### Bug Fixes
+
+* updated npm packages ([5ae7773](https://github.com/kouts/vue-vite-starter-template/commit/5ae77735c69f4e0f2c7ecf2f88a179f18cbf2a03))
+
 ## [1.1.1](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.0...v1.1.1) (2022-04-29)
 
 
