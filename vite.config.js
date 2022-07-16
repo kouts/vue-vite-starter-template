@@ -1,9 +1,10 @@
 import legacy from '@vitejs/plugin-legacy'
 import { createHtmlPlugin } from 'vite-plugin-html'
-const path = require('path')
-const { createVuePlugin } = require('vite-plugin-vue2')
+import { createVuePlugin } from 'vite-plugin-vue2'
+import { defineConfig } from 'vite'
+import { resolve } from 'path'
 
-module.exports = {
+module.exports = defineConfig({
   plugins: [
     createVuePlugin(),
     createHtmlPlugin({
@@ -22,7 +23,7 @@ module.exports = {
   ],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, '/src'),
+      '@': resolve(__dirname, '/src'),
       '~bootstrap': 'bootstrap'
     }
   },
@@ -33,4 +34,4 @@ module.exports = {
       }
     }
   }
-}
+})
