@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.5...v1.1.6) (2022-09-25)
+
+
+### Bug Fixes
+
+* replaced logo with svg ([9965c63](https://github.com/kouts/vue-vite-starter-template/commit/9965c63412fc2e73d32802bd54d811995d46bd4b))
+
 ## [1.1.5](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.4...v1.1.5) (2022-09-25)
 
 
