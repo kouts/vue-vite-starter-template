@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.14...v1.1.15) (2024-01-01)
+
+
+### Bug Fixes
+
+* updated to vite 5 ([677edc5](https://github.com/kouts/vue-vite-starter-template/commit/677edc5023c10b9a47244ea420569e4706c1336c))
+
 ## [1.1.14](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.13...v1.1.14) (2023-07-25)
 
 
