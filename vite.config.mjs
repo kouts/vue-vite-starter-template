@@ -1,20 +1,24 @@
 import legacy from '@vitejs/plugin-legacy'
-import { createHtmlPlugin } from 'vite-plugin-html'
-import { createVuePlugin } from 'vite-plugin-vue2'
+import vue from '@vitejs/plugin-vue2'
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
-module.exports = defineConfig({
+const transformHtmlPlugin = (data) => ({
+  name: 'transform-html',
+  transformIndexHtml: {
+    order: 'pre',
+    handler(html) {
+      return html.replace(/<%=\s*(\w+)\s*%>/gi, (match, p1) => data[p1] || '')
+    }
+  }
+})
+
+export default defineConfig({
   plugins: [
-    createVuePlugin(),
-    createHtmlPlugin({
-      minify: true,
-      inject: {
-        data: {
-          title: 'ProjectName',
-          description: 'A single page application created using Vue.js'
-        }
-      }
+    vue(),
+    transformHtmlPlugin({
+      title: 'ProjectName',
+      description: 'A single page application created using Vue.js'
     }),
     legacy({
       targets: ['ie >= 11'],

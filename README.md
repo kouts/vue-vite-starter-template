@@ -20,31 +20,31 @@ A single page app [Vite](https://vitejs.dev) starter template, created to easily
 ## Project setup
 
 ```
-npm install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-npm run dev
+pnpm run dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-npm run build
+pnpm run build
 ```
 
 ## Run your unit tests
 
 ```
-npm run test:unit
+pnpm run test:unit
 ```
 
 ### Lints and fixes files
 
 ```
-npm run lint-fix
+pnpm run lint-fix
 ```
 
 ### Customize configuration
