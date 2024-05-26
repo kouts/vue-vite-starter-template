@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.16...v1.1.17) (2024-05-26)
+
+
+### Bug Fixes
+
+* added terser ([cecd2a2](https://github.com/kouts/vue-vite-starter-template/commit/cecd2a28a0df55fcc19aedb1c24efba20bdb2b6f))
+
 ## [1.1.16](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.15...v1.1.16) (2024-05-24)
 
 
