@@ -1,3 +1,11 @@
+## [1.1.18](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.17...v1.1.18) (2024-09-28)
+
+
+### Bug Fixes
+
+* fixed sass warnings ([94709ac](https://github.com/kouts/vue-vite-starter-template/commit/94709ac6f53679e7dd33684cea9946d98a597437))
+* updated node, lint config and npm packages ([6ad78e1](https://github.com/kouts/vue-vite-starter-template/commit/6ad78e1fc860f37be2140a7cbeadbccfbdc8302d))
+
 ## [1.1.17](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.16...v1.1.17) (2024-05-26)
 
 
