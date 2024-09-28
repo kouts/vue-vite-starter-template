@@ -33,8 +33,8 @@ jobs:
       - name: Install dependencies 📦
         run: pnpm install
 
-      - name: Install semantic-release extra plugins 📦
-        run: pnpm install --save-dev @semantic-release/changelog @semantic-release/git
+      - name: Install semantic-release and extra plugins 📦
+        run: pnpm install --save-dev semantic-release @semantic-release/changelog @semantic-release/git
 
       - name: Run linter 👀
         run: pnpm run lint-fix
