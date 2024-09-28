@@ -1,3 +1,3 @@
-module.exports = {
-  '*.{vue,js}': ['npm run lint-fix']
+export default {
+  '*.{vue,js}': ['npm run lint-fix'],
 }

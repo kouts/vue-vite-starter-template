@@ -1,10 +1,13 @@
+import postcssPurgecss from '@fullhuman/postcss-purgecss'
+import autoprefixer from 'autoprefixer'
+
 const IN_PRODUCTION = process.env.NODE_ENV === 'production'
 
-module.exports = {
+export default {
   plugins: [
-    require('autoprefixer'),
+    autoprefixer,
     IN_PRODUCTION &&
-      require('@fullhuman/postcss-purgecss')({
+      postcssPurgecss({
         content: ['./**/*.html', './src/**/*.vue'],
         defaultExtractor(content) {
           const contentWithoutStyleBlocks = content.replace(/<style[^]+?<\/style>/gi, '')
@@ -16,8 +19,8 @@ module.exports = {
           /^(?!(|.*?:)cursor-move).+-move$/,
           /^router-link(|-exact)-active$/,
           /data-v-.*/,
-          /^navbar-nav/
-        ]
-      })
-  ]
+          /^navbar-nav/,
+        ],
+      }),
+  ],
 }

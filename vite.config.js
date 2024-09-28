@@ -1,7 +1,7 @@
 import legacy from '@vitejs/plugin-legacy'
 import vue from '@vitejs/plugin-vue2'
-import { defineConfig } from 'vite'
 import { resolve } from 'path'
+import { defineConfig } from 'vite'
 
 const transformHtmlPlugin = (data) => ({
   name: 'transform-html',
@@ -9,8 +9,8 @@ const transformHtmlPlugin = (data) => ({
     order: 'pre',
     handler(html) {
       return html.replace(/<%=\s*(\w+)\s*%>/gi, (match, p1) => data[p1] || '')
-    }
-  }
+    },
+  },
 })
 
 export default defineConfig({
@@ -18,24 +18,25 @@ export default defineConfig({
     vue(),
     transformHtmlPlugin({
       title: 'ProjectName',
-      description: 'A single page application created using Vue.js'
+      description: 'A single page application created using Vue.js',
     }),
     legacy({
       targets: ['ie >= 11'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime']
-    })
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
+    }),
   ],
   resolve: {
     alias: {
       '@': resolve(__dirname, '/src'),
-      '~bootstrap': 'bootstrap'
-    }
+      '~bootstrap': 'bootstrap',
+    },
   },
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "./src/scss/variables";`
-      }
-    }
-  }
+        quietDeps: true,
+        additionalData: `@import "./src/scss/variables.scss";`,
+      },
+    },
+  },
 })

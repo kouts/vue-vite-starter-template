@@ -3,7 +3,7 @@
     <div class="text-center">
       <img alt="Vue logo" src="@/assets/logo.svg" class="text-center" />
     </div>
-    <hello-world msg="Welcome to Vue.js Vite starter template" />
+    <HelloWorld msg="Welcome to Vue.js Vite starter template" />
   </div>
 </template>
 
@@ -14,7 +14,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 }
 </script>
