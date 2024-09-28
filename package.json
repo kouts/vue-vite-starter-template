@@ -3,6 +3,7 @@
   "version": "0.0.0-semantic-release",
   "private": true,
   "preinstall": "npx only-allow pnpm",
+  "packageManager": "pnpm@9.11.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
