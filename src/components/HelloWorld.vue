@@ -18,9 +18,9 @@ export default {
   props: {
     msg: {
       type: String,
-      default: ''
-    }
-  }
+      default: '',
+    },
+  },
 }
 </script>
 
