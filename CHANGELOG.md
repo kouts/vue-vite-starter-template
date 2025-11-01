@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.18...v1.1.19) (2025-11-01)
+
+
+### Bug Fixes
+
+* replaced jest with vitest ([b1a37ff](https://github.com/kouts/vue-vite-starter-template/commit/b1a37ff49ac634883f112c7c6c80969b8e5cfa66))
+
 ## [1.1.18](https://github.com/kouts/vue-vite-starter-template/compare/v1.1.17...v1.1.18) (2024-09-28)
 
 
