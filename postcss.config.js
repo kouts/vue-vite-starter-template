@@ -1,4 +1,4 @@
-import postcssPurgecss from '@fullhuman/postcss-purgecss'
+import { purgeCSSPlugin } from '@fullhuman/postcss-purgecss'
 import autoprefixer from 'autoprefixer'
 
 const IN_PRODUCTION = process.env.NODE_ENV === 'production'
@@ -7,7 +7,7 @@ export default {
   plugins: [
     autoprefixer,
     IN_PRODUCTION &&
-      postcssPurgecss({
+      purgeCSSPlugin({
         content: ['./**/*.html', './src/**/*.vue'],
         defaultExtractor(content) {
           const contentWithoutStyleBlocks = content.replace(/<style[^]+?<\/style>/gi, '')

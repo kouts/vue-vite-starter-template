@@ -40,4 +40,13 @@ export default defineConfig({
       },
     },
   },
+  test: {
+    globals: true,
+    setupFiles: ['./tests/vitest.globals.js'],
+    environment: 'jsdom',
+    reporters: ['default'],
+    coverage: {
+      reporter: ['text', 'json'],
+    },
+  },
 })
